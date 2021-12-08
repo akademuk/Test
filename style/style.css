@@ -349,7 +349,7 @@ article {
 .wrapper_main {
   width: 905px;
 }
-#select {
+.select {
   width: 25%;
   background: #f2eded;
   display: inline-block;
@@ -359,7 +359,7 @@ article {
   box-sizing: border-box;
   border-radius: 5px;
 }
-#select_name::before {
+.select_name::before {
   content: url(../img/arrow.png);
   position: absolute;
   width: 15px;
@@ -367,20 +367,20 @@ article {
   right: 5%;
   top: 37%;
 }
-#select_name {
+.select_name {
   padding: 15px 16px 11px 11px;
   font-size: 14px;
   line-height: 17px;
   font-weight: 400;
 }
-#select_name:hover {
+.select_name:hover {
   cursor: pointer;
 }
-#select_name_list a:hover {
+.select_name_list a:hover {
   cursor: pointer;
   color: #5dcb42;
 }
-#select_name_list {
+.select_name_list {
   display: none;
   position: absolute;
   top: 90%;
@@ -388,7 +388,7 @@ article {
   background: #fff;
   text-align: left;
 }
-#select_name_list a {
+.select_name_list a {
   display: block;
   text-decoration: none;
   font-size: 11px;
